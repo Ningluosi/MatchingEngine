@@ -30,3 +30,19 @@ target_link_libraries(perf_gateway_tps
 )
 
 target_compile_definitions(perf_gateway_tps PRIVATE PERF_TEST)
+
+add_executable(perf_rtt
+    perf_rtt.cpp
+)
+
+target_link_libraries(perf_rtt
+    PRIVATE
+        core
+        engine
+        dispatch
+        net
+        utils
+        pthread
+)
+
+target_compile_definitions(perf_rtt PRIVATE PERF_TEST)
