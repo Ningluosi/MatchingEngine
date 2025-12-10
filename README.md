@@ -127,16 +127,15 @@ nc 127.0.0.1 9000
 {"type":"CANCEL_ORDER","symbol":"MAOTAI","orderId":1}
 ```
 
-## 📈 性能（未来补充）
+## 📈 性能
 
+- **Matching Core TPS:** ~625,000 orders/sec（4 engines）
+- **Match-Only Latency:** p50 = 5 μs，p99 ≈ 20 μs
+- **Gateway TPS:** ~24,600 TPS
+- **E2E RTT:** p50 = 0.43 ms
 
-* 单引擎 → 入站 TPS（吞吐量）
+👉 更多详细性能报告请参见：[`performance.md`](docs/performance.md)
 
-* 纯撮合延迟（match-only latency）
-
-* 端到端往返延迟（RTT，使用 nc 测试）
-
-* 高负载下线程池饱和情况（ThreadPool saturation）
 
 
 ##  🧭 未来规划

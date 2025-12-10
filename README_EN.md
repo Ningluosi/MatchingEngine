@@ -116,12 +116,14 @@ nc 127.0.0.1 9000
 {"type":"CANCEL_ORDER","symbol":"MAOTAI","orderId":1}
 ```
 
-## 📈 Performance (Future Work)
+## 📈 Performance
 
-- Inbound TPS per engine  
-- Pure matching latency  
-- End-to-end RTT  
-- ThreadPool saturation  
+- **Matching Core TPS:** ~625,000 orders/sec（4 engines）
+- **Match-Only Latency:** p50 = 5 μs，p99 ≈ 20 μs
+- **Gateway TPS:** ~24,600 TPS
+- **E2E RTT:** p50 = 0.43 ms
+
+👉 For more detailed performance results, please refer to: [`performance_en.md`](docs/performance_en.md)
 
 ## 🧭 Roadmap
 
