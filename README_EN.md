@@ -132,8 +132,7 @@ nc 127.0.0.1 9000
 - Persistence (Snapshot + WAL)  
 - SO_REUSEPORT multi-reactor scaling  
 - WebSocket gateway  
-- Full unit test coverage  
-- Benchmark module  
+
 
 ## 📄 License
 

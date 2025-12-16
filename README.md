@@ -144,8 +144,6 @@ nc 127.0.0.1 9000
 - 数据持久化（Snapshot + WAL）
 - SO_REUSEPORT 多 Reactor 扩展
 - WebSocket 网关
-- 单元测试全面覆盖
-- 性能基准测试模块
 
 
 ## 📄 许可证
