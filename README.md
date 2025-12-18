@@ -2,7 +2,7 @@
   <a href="README.md">中文</a> | <a href="README_EN.md">English</a>
 </p>
 
-# MatchingEngine — C++17 高性能撮合引擎原型
+# MatchingEngine — C++ 高性能撮合引擎原型
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
