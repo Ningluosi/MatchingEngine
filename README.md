@@ -139,7 +139,7 @@ nc 127.0.0.1 9000
 
 
 ##  🧭 未来规划
-- 多引擎分片撮合
+
 - 行情广播模块
 - 数据持久化（Snapshot + WAL）
 - SO_REUSEPORT 多 Reactor 扩展

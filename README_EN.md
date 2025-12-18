@@ -127,7 +127,6 @@ nc 127.0.0.1 9000
 
 ## 🧭 Roadmap
 
-- Multi-engine sharded matching  
 - Market data broadcasting  
 - Persistence (Snapshot + WAL)  
 - SO_REUSEPORT multi-reactor scaling  
